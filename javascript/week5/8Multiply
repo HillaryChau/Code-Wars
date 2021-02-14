@@ -1,0 +1,6 @@
+//8- Multiply //
+//Try to figure why the code does not execute properly [ answer there was no return]
+
+function multiply(a, b){
+  return a * b
+}
