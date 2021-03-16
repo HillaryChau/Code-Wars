@@ -1,12 +1,12 @@
-/*Beginner - Lost Without a Map
+// Beginner - Lost Without a Map
 
-Given an array of integers, return a new array with each value doubled.
+// Given an array of integers, return a new array with each value doubled.
 
-For example:
+// For example:
 
-[1, 2, 3] --> [2, 4, 6]
+// [1, 2, 3] --> [2, 4, 6]
 
-For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know. */
+// For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
 
 function maps(x){
   return x.map(a => a * 2)
