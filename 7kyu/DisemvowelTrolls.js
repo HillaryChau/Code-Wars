@@ -12,4 +12,16 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 Note: for this kata y isn't considered a vowel.
 */
 
-
+function disemvowel(str) {
+  let vowel = ["a","e","i","o","u"]
+  let troll = []
+  let arr= str.split("")
+  for (let i = 0; i < arr.length ; i++){
+    if (vowel.includes(arr[i].toLowerCase())){
+      //do nothing 
+    }else{
+      troll.push(arr[i])
+    }
+  }
+  return troll.join("")
+}
