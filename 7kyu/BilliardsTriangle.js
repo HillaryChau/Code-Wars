@@ -14,6 +14,7 @@ pyramid(6) == 3
 pyramid(10) == 4
 
 pyramid(15) == 5
+
 Write a function that takes number of balls (≥ 1) and calculates how many levels you can build a triangle.
 
 */
